@@ -1,0 +1,14 @@
+[1011/174924.733:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -202
+[1011/174924.949:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -202
+[1011/174924.949:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -202
+[1011/174924.956:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -202
+[1011/174924.961:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -202
+[1011/174924.965:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -202
+[1011/174924.982:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -202
+[1011/174924.986:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -202
+[1011/174925.000:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -202
+[1011/174925.004:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -202
+[1011/174925.009:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -202
+[1011/174925.010:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -202
+[1011/174925.573:INFO:CONSOLE(0)] "Refused to execute script from 'https://127.0.0.1:52822/admin-dashboard/admin-dashboard.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.", source: https://127.0.0.1:52822/extension-ui/Session-1-1633967364351?passphrase=dc190c16-d74c-d4ca-2732-14901e8da40e (0)
+[1011/174925.688:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -202

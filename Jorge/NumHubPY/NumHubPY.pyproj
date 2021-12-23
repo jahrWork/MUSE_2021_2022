@@ -1,0 +1,106 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>cb065602-5f49-48fe-bdbf-7d2eddd59239</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>NN\NN_7_Regression2.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>NumHubPY</Name>
+    <RootNamespace>NumHubPY</RootNamespace>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda39-64</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="CR3BP_body.py" />
+    <Compile Include="a_zeros.py" />
+    <Compile Include="a_linalg.py" />
+    <Compile Include="a_int.py" />
+    <Compile Include="a_DTR.py" />
+    <Compile Include="Cauchy.py" />
+    <Compile Include="a_DF.py" />
+    <Compile Include="NN\ActvFunc.py" />
+    <Compile Include="NN\Examples\Datasets.py" />
+    <Compile Include="NN\Examples\_np_fix.py" />
+    <Compile Include="NN\Layer.py" />
+    <Compile Include="NN\Loss.py" />
+    <Compile Include="NN\_np_fix.py" />
+    <Compile Include="NN\Datasets.py" />
+    <Compile Include="NN\NN_7_Regression2.py" />
+    <Compile Include="NN\NN_6_Regression.py" />
+    <Compile Include="NN\Optimizer.py" />
+    <Compile Include="NN\test_NN.py" />
+    <Compile Include="NN\Examples\NN_Spiral_Data.py" />
+    <Compile Include="NN\Examples\test.py" />
+    <Compile Include="NN_Model\ActvFunc.py" />
+    <Compile Include="NN_Model\Accuracy.py" />
+    <Compile Include="NN_Model\Datasets.py" />
+    <Compile Include="NN_Model\Z3.py" />
+    <Compile Include="NN_Model\Z2.py" />
+    <Compile Include="NN_Model\Z1.py" />
+    <Compile Include="NN_Model\Layer.py" />
+    <Compile Include="NN_Model\Loss.py" />
+    <Compile Include="NN_Model\Model.py" />
+    <Compile Include="NN\NN_0.py" />
+    <Compile Include="NN\NN_5_Binary.py" />
+    <Compile Include="NN\NN_4_Dropout.py" />
+    <Compile Include="NN\NN_3_Regularized.py" />
+    <Compile Include="NN\NN_2_Backprop.py" />
+    <Compile Include="NN\NN_1.py" />
+    <Compile Include="NN\Examples\Softmax.py" />
+    <Compile Include="NN\Examples\ReLU.py" />
+    <Compile Include="NN\Examples\NN_Spiral_Data_Layer.py" />
+    <Compile Include="NN\Examples\NN_Layer_Batch_x2.py" />
+    <Compile Include="NN\Examples\NN_Layer_Batch.py" />
+    <Compile Include="NN\Examples\NN_Layer.py" />
+    <Compile Include="NN\Examples\NN.py" />
+    <Compile Include="NN_Model\Optimizer.py" />
+    <Compile Include="NN_Model\_np_fix.py" />
+    <Compile Include="N_Body.py" />
+    <Compile Include="Log_reg.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PEL.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Linear_oscillator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Stability_region.py" />
+    <Compile Include="Sch_R.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RExtra.py" />
+    <Compile Include="ODE.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kepler.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NN_Model\" />
+    <Folder Include="NN\" />
+    <Folder Include="NN\Examples\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda39-64" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
