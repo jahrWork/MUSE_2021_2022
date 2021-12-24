@@ -9,7 +9,7 @@ from Optimizer import *
 from test_NN import *
 
 init()
-x, y = vertical_data(100, 3)
+x, y = spiral_data(100, 3)
 
 d1 = Layer_Dense(2, 64, 0, 5e-4, 0, 5e-4)
 f1 = Activation_ReLU()
@@ -21,7 +21,7 @@ lf2 = Activation_Softmax_Loss_Categorical_Cross_Entropy()
 #opt = Optimizer_RMS(0.02, 1e-5, 1e-7, 0.999)
 opt = Optimizer_Adam(0.02, 5e-7, 1e-7, 0.9, 0.999)
 
-for i in range(61):
+for i in range(10001):
     d1.forward(x)
     f1.forward(d1.out)
 

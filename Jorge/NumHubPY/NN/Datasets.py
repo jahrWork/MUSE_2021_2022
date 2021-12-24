@@ -1,14 +1,14 @@
 import numpy as np
 
-#def sine_data(samples=1000):
-#    x = np.linspace(0,0.999,samples).reshape(-1,1)
-#    y = np.sin(x*2*np.pi)
-#    return x, y
-
 def sine_data(samples=1000):
     x = np.linspace(0,0.999,samples).reshape(-1,1)
-    y = (x**3)*np.sin(x*2*np.pi)**2+x**2
+    y = np.sin(x*2*np.pi)
     return x, y
+
+#def sine_data(samples=1000):
+#    x = np.linspace(0,0.999,samples).reshape(-1,1)
+#    y = (x**3)*np.sin(x*2*np.pi)**2+x**2
+#    return x, y
 
 def spiral_data(samples=100, classes=3):
     X = np.zeros((samples*classes, 2))

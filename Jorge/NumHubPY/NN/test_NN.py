@@ -36,7 +36,7 @@ def test_nn1(d1, d2, f1, f2, L):
     plt.show()
 
 def test_nn(d1, d2, f1, lf2):
-    x_test, y_test = vertical_data(samples=100, classes=3)
+    x_test, y_test = spiral_data(samples=100, classes=3)
 
     d1.forward(x_test)
     f1.forward(d1.out)
