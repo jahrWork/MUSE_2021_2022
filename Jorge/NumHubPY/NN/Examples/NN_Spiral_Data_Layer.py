@@ -1,9 +1,8 @@
-
 import numpy as np
-import nnfs
-from nnfs.datasets import spiral_data
+from Datasets import *
+from _np_fix import *
 
-nnfs.init()
+init()
 
 class Layer_Dense:
     def __init__(self, n_inputs, n_neurons):
